@@ -392,7 +392,7 @@ wheels = [
 
 [[package]]
 name = "google-adk"
-version = "1.9.0"
+version = "1.10.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "absolufy-imports" },
@@ -425,9 +425,9 @@ dependencies = [
     { name = "watchdog" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f5/27/edb76b8ebff0b27ec517de4238ae4e3a1c0649cd23807cd6afc08a34a644/google_adk-1.9.0.tar.gz", hash = "sha256:b76df1a816c2e177e1aee525d980b9a3c1143a2a5343e39905cf161390f06856", size = 1606399, upload-time = "2025-07-31T22:38:11.675Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9d/1b/1f61a4e6f076d91e9354687d1ea71f61a950512c65eef4382434f7bd948d/google_adk-1.10.0.tar.gz", hash = "sha256:9a35fa6099c1a91c8b970ca98efb80640faad51d93520aa5d7c63ac08ebde8ba", size = 1620716, upload-time = "2025-08-07T16:56:12.856Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3c/c0/7ea1c2406281790004b01572e6728302d51958efc38a31ea0fa5506b9ed0/google_adk-1.9.0-py3-none-any.whl", hash = "sha256:b476271a2aedcbcdf2f1ce5d41a6dabde9f1c596a70258832d4afdb527fc589a", size = 1828708, upload-time = "2025-07-31T22:38:09.929Z" },
+    { url = "https://files.pythonhosted.org/packages/82/a6/93819a03ace1457fcb8a811fcc7f3d3ee5546c69bf02078b10ea68d74fa3/google_adk-1.10.0-py3-none-any.whl", hash = "sha256:8f7a41be6cd1cc1d47319335fa799b260a683b2c56644d0a747112c5e0d017ba", size = 1841748, upload-time = "2025-08-07T16:56:11.14Z" },
 ]
 
 [[package]]
