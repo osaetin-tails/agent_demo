@@ -392,7 +392,7 @@ wheels = [
 
 [[package]]
 name = "google-adk"
-version = "1.11.0"
+version = "1.12.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "absolufy-imports" },
@@ -402,6 +402,7 @@ dependencies = [
     { name = "fastapi" },
     { name = "google-api-python-client" },
     { name = "google-cloud-aiplatform", extra = ["agent-engines"] },
+    { name = "google-cloud-bigtable" },
     { name = "google-cloud-secret-manager" },
     { name = "google-cloud-spanner" },
     { name = "google-cloud-speech" },
@@ -426,8 +427,9 @@ dependencies = [
     { name = "watchdog" },
     { name = "websockets" },
 ]
+sdist = { url = "https://files.pythonhosted.org/packages/cf/12/960b2b92803be18ba8a04906c8f6ccd74f6f3b4353da43e223a0970513b4/google_adk-1.12.0.tar.gz", hash = "sha256:4ff8e70f63a65ad9e147ec180e5ffe16970721936ec34eda40ae9e1621f70605", size = 1953975, upload-time = "2025-08-20T21:12:25.734Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/34/b1/e506f1791b95461d11c9710df0f9aa4502a667232f770833fb22620eae56/google_adk-1.11.0-py3-none-any.whl", hash = "sha256:9c0a75b9994ae7630a3957c076003ac52b1a8a99dd9b0aacf06d019e18093d06", size = 1837302, upload-time = "2025-08-14T21:07:27.248Z" },
+    { url = "https://files.pythonhosted.org/packages/8f/0c/661ce1d40ea4e6649b99a133b33b46aeda5a037f98da02d6ddd371848f4c/google_adk-1.12.0-py3-none-any.whl", hash = "sha256:3b0efedc2dc053532d73bf328d87ac1b8e0467cbfe8d5468e9df52c4de587e88", size = 2216570, upload-time = "2025-08-20T21:12:23.901Z" },
 ]
 
 [[package]]
@@ -575,6 +577,24 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/24/f9/e9da2d56d7028f05c0e2f5edf6ce43c773220c3172666c3dd925791d763d/google_cloud_bigquery-3.34.0.tar.gz", hash = "sha256:5ee1a78ba5c2ccb9f9a8b2bf3ed76b378ea68f49b6cac0544dc55cc97ff7c1ce", size = 489091, upload-time = "2025-05-29T17:18:06.03Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b1/7e/7115c4f67ca0bc678f25bff1eab56cc37d06eb9a3978940b2ebd0705aa0a/google_cloud_bigquery-3.34.0-py3-none-any.whl", hash = "sha256:de20ded0680f8136d92ff5256270b5920dfe4fae479f5d0f73e90e5df30b1cf7", size = 253555, upload-time = "2025-05-29T17:18:02.904Z" },
+]
+
+[[package]]
+name = "google-cloud-bigtable"
+version = "2.32.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "google-api-core", extra = ["grpc"] },
+    { name = "google-auth" },
+    { name = "google-cloud-core" },
+    { name = "google-crc32c" },
+    { name = "grpc-google-iam-v1" },
+    { name = "proto-plus" },
+    { name = "protobuf" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/88/18/52eaef1e08b1570a56a74bb909345bfae082b6915e482df10de1fb0b341d/google_cloud_bigtable-2.32.0.tar.gz", hash = "sha256:1dcf8a9fae5801164dc184558cd8e9e930485424655faae254e2c7350fa66946", size = 746803, upload-time = "2025-08-06T17:28:54.589Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/20/89/2e3607c3c6f85954c3351078f3b891e5a2ec6dec9b964e260731818dcaec/google_cloud_bigtable-2.32.0-py3-none-any.whl", hash = "sha256:39881c36a4009703fa046337cf3259da4dd2cbcabe7b95ee5b0b0a8f19c3234e", size = 520438, upload-time = "2025-08-06T17:28:53.27Z" },
 ]
 
 [[package]]
