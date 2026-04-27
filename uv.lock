@@ -27,7 +27,7 @@ dev = [
 requires-dist = [
     { name = "asyncio", specifier = ">=3.4.3" },
     { name = "dotenv", specifier = ">=0.9.9" },
-    { name = "google-adk", specifier = ">=1.31.0" },
+    { name = "google-adk", specifier = ">=1.31.1" },
     { name = "google-genai", specifier = ">=1.73.1" },
     { name = "litellm", specifier = ">=1.83.10" },
 ]
@@ -467,7 +467,7 @@ wheels = [
 
 [[package]]
 name = "google-adk"
-version = "1.31.0"
+version = "1.31.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiosqlite" },
@@ -518,9 +518,9 @@ dependencies = [
     { name = "watchdog" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4e/7a/2d596bf923d9491163b1fc74f9927c538ffa8ea8fec3cadacf26749d2239/google_adk-1.31.0.tar.gz", hash = "sha256:1ebcf2f3c790bd95e8fc43c5390606a9a1019f424bdbd675fcdd4ed33e5b4c3d", size = 2407101, upload-time = "2026-04-17T00:59:03.83Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9b/f7/e2371e8a871202f47f8911992da7daf8623dd61e714e0af5c6fec019ba67/google_adk-1.31.1.tar.gz", hash = "sha256:e56416264f62e931709da6262bc9fe05140faeb7a889a2fe8f5684617e8a05c3", size = 2408228, upload-time = "2026-04-21T02:06:48.623Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3e/4f/ce4a0de8a7b03431d67d7375c5e9c1becc8b9351630b7b34f0943b42fb27/google_adk-1.31.0-py3-none-any.whl", hash = "sha256:1886cfd0c9f1455fb08500348e8861be6c6810ec3eabc9dfcbfe1309ea8e3202", size = 2849240, upload-time = "2026-04-17T00:59:01.452Z" },
+    { url = "https://files.pythonhosted.org/packages/c8/02/6e7b88b122708569004ac024ec7f6773cc9d10ce1b086a4a6668a95ca142/google_adk-1.31.1-py3-none-any.whl", hash = "sha256:8f5d9c67c9a87832c2fe581bd4b1248dddf8964c98351a38e2663f0999bc7209", size = 2850553, upload-time = "2026-04-21T02:06:45.992Z" },
 ]
 
 [[package]]
