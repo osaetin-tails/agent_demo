@@ -9,7 +9,7 @@ dependencies = [
     "dotenv>=0.9.9",
     "google-adk>=1.33.0",
     "google-genai>=1.74.0",
-    "litellm>=1.83.14",
+    "litellm>=1.85.0",
 ]
 
 [dependency-groups]
