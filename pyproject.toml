@@ -8,7 +8,7 @@ dependencies = [
     "asyncio>=3.4.3",
     "dotenv>=0.9.9",
     "google-adk>=2.7.0",
-    "google-genai>=2.17.0",
+    "google-genai>=2.18.1",
     "litellm>=1.96.2",
 ]
 
