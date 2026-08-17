@@ -7,12 +7,12 @@ requires-python = ">=3.13"
 dependencies = [
     "asyncio>=3.4.3",
     "dotenv>=0.9.9",
-    "google-adk>=2.6.3",
+    "google-adk>=2.7.0",
     "google-genai>=2.18.1",
-    "litellm>=1.95.0",
+    "litellm>=1.96.2",
 ]
 
 [dependency-groups]
 dev = [
-    "ruff>=0.16.1",
+    "ruff>=0.16.3",
 ]
